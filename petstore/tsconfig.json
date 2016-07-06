@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es6",
     "moduleResolution": "node",
-    "module": "commonjs",
+    "module": "none",
     "declaration": false,
     "noLib": false,
     "emitDecoratorMetadata": true,
@@ -23,11 +23,8 @@
     "baseUrl": "src/",
     "listFiles": true
   },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules"
+  "files": [
+    "src/index.ts"
   ],
   "compileOnSave": false
 }
